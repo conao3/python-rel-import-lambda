@@ -1,4 +1,9 @@
-from . import util
+import importlib
+
+util = type("object", (), {})
+util = importlib.import_module(("." if __package__ else "") + "util", __package__)
+
+# from . import util
 # import util
 
 def main():
