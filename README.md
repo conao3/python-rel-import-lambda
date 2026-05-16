@@ -31,7 +31,7 @@ The project demonstrates using relative imports (`from . import util`) instead o
 
 ## Requirements
 
-- Python 3.8 or higher
+- Python 3.9 or higher
 - Poetry (for dependency management)
 
 ## Getting Started
