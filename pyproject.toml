@@ -3,10 +3,11 @@ name = "rel-import-lambda"
 version = "0.1.0"
 description = ""
 authors = ["Naoya Yamashita <conao3@gmail.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.8"
-pytest = "^6.2.5"
+python = "^3.9"
+pytest = "^8.0"
 
 [tool.poetry.dev-dependencies]
 
